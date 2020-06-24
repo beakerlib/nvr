@@ -1,0 +1,9 @@
+summary: Library allows easily compare NVR of an installed package
+contact: Karel Srot <ksrot@redhat.com>
+component: []
+test: ./runtest.sh
+duration: 5m
+enabled: true
+extra-summary: '[nvr] /CoreOS/distribution/Library/nvr (distribution/nvr)'
+extra-task: /CoreOS/distribution/Library/nvr
+extra-nitrate: TC#0607571
